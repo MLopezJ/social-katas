@@ -10,7 +10,7 @@ Contact: oscarlopezvillegas@gmail.com
 
 Date: 25 Dec 2023
 
-## Description
+## Issue Description
 
 > https://adventofcode.com/2022/day/1
 
