@@ -3,6 +3,9 @@ import path from 'node:path'
 
 /**
  * read file and transform string to number or undefined depending of the case
+ * Example:
+ * "400" ==> 400
+ * "" ==> undefined
  */
 export const read = async (file: string): Promise<(number | undefined)[]> => {
 	const baseDir = process.cwd()
