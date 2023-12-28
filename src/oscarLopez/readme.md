@@ -4,6 +4,8 @@
 
 Name: Oscar Lopez
 
+Age: 59 years old
+
 Ocupation: Director of [TEC-San Carlos](https://www.tec.ac.cr/campus-tecnologico-local-san-carlos-oferta-academica)
 
 Contact: oscarlopezvillegas@gmail.com
