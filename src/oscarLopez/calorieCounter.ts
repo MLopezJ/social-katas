@@ -43,7 +43,7 @@ const transformLogs = (logs: (number | undefined)[]) => {
 }
 
 /**
- * Select elve whith more calories
+ * Select max amount of calories from logs
  */
 export const calorieCounter = async (txt: string) => {
 	const logs = await read(txt)
