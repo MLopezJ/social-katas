@@ -7,20 +7,24 @@ const sum = (input: number[]) =>
 	input.reduce((previous, current) => {
 		return previous + current
 	})
-	
-/**
- * Select elve whith more calories
- */
-export const calorieCounter = async (txt: string) => {
-	const readFromPath = await read(txt)
-	// add undefined at the end of the array
-	readFromPath.push(undefined)
 
-	const x = readFromPath.reduce(
-		(previous, current) => {
+/**
+ * Sum consecutive numbers.
+ *
+ * Batch of numbers are separated by undefined
+ */
+const transformLogs = (logs: (number | undefined)[]) => {
+	type Accumulator = {
+		numbers: number[]
+		accumulator: number[]
+	}
+	// add a separator at the end of the array
+	logs.push(undefined)
+
+	const result = logs.reduce(
+		(previous: Accumulator, current: number | undefined) => {
 			if (current === undefined) {
 				const result = sum(previous.accumulator)
-				//console.log({result})
 				return {
 					numbers: [...previous.numbers, result],
 					accumulator: [],
@@ -35,7 +39,15 @@ export const calorieCounter = async (txt: string) => {
 		{ numbers: [], accumulator: [] },
 	)
 
-	const calories = x.numbers //[11000, 6000, 4000, 10000, 24000] // read form text and transform to number
+	return result.numbers
+}
+
+/**
+ * Select elve whith more calories
+ */
+export const calorieCounter = async (txt: string) => {
+	const logs = await read(txt)
+	const calories = transformLogs(logs)
 	const max = getMax(calories)
 	return max
 }
