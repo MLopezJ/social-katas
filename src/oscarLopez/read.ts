@@ -7,7 +7,7 @@ import path from 'node:path'
 export const read = async (file: string) => {
 	const baseDir = process.cwd()
 	const subDir = (...tree: string[]): string => path.join(baseDir, ...tree)
-	return readFile(subDir('src', file), 'utf-8').then((result) => {
+	return readFile(subDir('src/oscarLopez', file), 'utf-8').then((result) => {
 		result.toString().split('\n').map(x => console.log(x.length))
 		return result.toString().split('\n')
 	})
