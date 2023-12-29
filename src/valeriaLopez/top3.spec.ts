@@ -19,6 +19,7 @@ void describe('top3', () => {
 
 /**
  * Given a number and a list, should return a list with the 3 higher numbers in total
+ * // TODO: return a list order by lower number to higher
  */
 const top3 = (list: number[], number: number) => {
 	if (list.length < 3) return [...list, number]
