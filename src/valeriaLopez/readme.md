@@ -8,7 +8,7 @@ Age: 25 years old
 
 Ocupation: Industrial engineer
 
-Contact: // TODO: add contact
+Contact: [instagram/valerialjo](https://www.instagram.com/valerialjo/)
 
 Date: 28 Dec 2023
 
