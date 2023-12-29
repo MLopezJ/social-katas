@@ -13,7 +13,8 @@ void describe('top3', () => {
         // 
         [[4, 11, 24], 10, [10, 11, 24]],
         [[11, 4, 24], 10, [10, 11, 24]],
-        [[11, 24, 4], 10, [10, 11, 24]]
+        [[11, 24, 4], 10, [10, 11, 24]],
+        [[ 6000, 4000, 11000 ], 24000, [6000, 11000, 24000]]
 	] as [number[], number, number[]][]) {
 		void it(`should return a list with the 3 higher elements`, () => {
 			assert.deepEqual(top3(list, number), expected)

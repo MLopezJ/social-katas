@@ -13,10 +13,11 @@ export const top3 = (list: number[], number: number) => {
     // new number is lower than the rest of elements, so comparation is not needed
     if (isNewNumberLower === true) return list 
 
-    const newList = orderArrray(list) as [number, number, number]
-    if (newList[2] < number) newList[2] = number
-    if (newList[1] < number) newList[1] = number
-    if (newList[0] < number) newList[0] = number
-
-    return newList
+    // add number to list
+    list.push(number)
+    // order list
+    const newList = orderArrray(list)
+    // pick last 3 elements
+    const result = newList.slice(-3)
+    return result
 }
