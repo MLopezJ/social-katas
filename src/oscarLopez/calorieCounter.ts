@@ -13,7 +13,7 @@ const sum = (input: number[]) =>
  *
  * Batch of numbers are separated by undefined
  */
-const transformLogs = (logs: (number | undefined)[]) => {
+export const transformLogs = (logs: (number | undefined)[]) => {
 	type Accumulator = {
 		numbers: number[]
 		accumulator: number[]

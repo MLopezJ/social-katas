@@ -9,7 +9,7 @@ export const calorieCounter = async (txt: string) => {
     const logs = await read(txt)
 
 	// sum total amount of calories per elve
-	const calories = [6000, 4000, 11000, 24000, 10000]
+	const calories = transformLogs(logs)
 
 	// select top 3 (higher number) from calories
 	const top3 = [11000, 24000, 10000]
