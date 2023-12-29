@@ -12,6 +12,8 @@ Contact: // TODO: add contact
 
 Date: 28 Dec 2023
 
+Location: Ciudad Quesada, Costa Rica
+
 ## Issue Description
 
 > Check [part I](../oscarLopez//readme.md) of this issue
