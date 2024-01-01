@@ -12,6 +12,8 @@ Contact: oscarlopezvillegas@gmail.com
 
 Date: 25 Dec 2023
 
+Location: Santa Clara, San Carlos. Costa Rica.
+
 ## Issue Description
 
 > https://adventofcode.com/2022/day/1
