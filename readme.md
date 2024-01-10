@@ -6,7 +6,7 @@ Having fun with other humans being and coding a bit.
 
 - Interact with others humans beign
 - Learn how other people think and how they approach the solution of problems 
-- Build solutions with other people using code
+- Build solutions together with other people (with coding knowledge and non coding knowledge background) using code
 
 ## List
 1. 25 Dec 2023 - [Oscar Lopez](./src/oscarLopez/readme.md)
