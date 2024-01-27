@@ -11,3 +11,4 @@ Having fun with other humans being and coding a bit.
 ## List
 1. 25 Dec 2023 - [Oscar Lopez](./src/oscarLopez/readme.md)
 2. 28 Dec 2023 - [Valeria Lopez](./src/valeriaLopez/readme.md)
+3. 26 Jan 2023 - [Felipe Martinez](./src//felipeMartinez/readme.md) - in progress
