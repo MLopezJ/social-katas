@@ -10,9 +10,9 @@ Ocupation: software engineer
 
 Contact: 
 
-Date: 26 Jan 2024
-
-Location: Santa Clara, San Carlos. Costa Rica. (zoom)
+First Meeting:
+* Date: 26 Jan 2024
+* Location: Santa Clara, San Carlos. Costa Rica. (zoom)
 
 ## Issue Description
 
@@ -33,9 +33,20 @@ For example:
 .#..#..
 ```
 
-The scan shows Elves `#` and empty ground `.`; outside your scan, more empty ground extends a long way in every direction. The scan is oriented so that north is up; orthogonal directions are written N (north), S (south), W (west), and E (east), while diagonal directions are written NE, NW, SE, SW.
+The scan shows Elves (`#`) and empty ground (`.`); outside your scan, more empty ground extends a long way in every direction.
+
+The scan is oriented so that north is up.
+
+Orthogonal directions are written:
+* N (north)
+* S (south)
+* W (west)
+* E (east) 
+
+While diagonal directions are written: NE, NW, SE, SW.
 
 The Elves follow a time-consuming process to figure out where they should each go; you can speed up this process considerably. The process consists of some number of rounds during which Elves alternate between considering where to move and actually moving.
+
 During the first half of each round, each Elf considers the eight positions adjacent to themself. If no other Elves are in one of those eight positions, the Elf **does not do anything during this round**. Otherwise, the Elf looks in each of four directions in the following order and proposes moving one step in the first valid direction:
 
 * If there is no Elf in the N, NE, or NW adjacent positions, the Elf proposes moving north one step.
@@ -221,7 +232,6 @@ To make sure they're on the right track, the Elves like to check after round 10 
 ...#..#..#..
 ```
 In this region, the number of empty ground tiles is 110.
-
 
 
 ## Solution
