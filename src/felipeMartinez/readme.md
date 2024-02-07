@@ -11,11 +11,11 @@ Ocupation: software engineer
 Contact: 
 
 Meetings:
-* 1
+
 * Date: 26 Jan 2024
 * Location: Santa Clara, San Carlos. Costa Rica. (zoom)
 
-* 2
+.
 * Date: 07 Feb 2024
 * Location: Zoom. Felipe in CR. Mauro in Norway.
 
