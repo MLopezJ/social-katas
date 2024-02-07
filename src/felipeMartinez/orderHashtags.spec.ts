@@ -4,6 +4,15 @@ import { type matrix } from './index.js'
 
 describe('order hashtags', () => {
 	it(`should order hashtag (#) in the matrix to be surrounded by dots (.)`, () => {
+        /**
+         * 
+         *      .....
+                ..##.
+                ..#..
+                .....
+                ..##.
+                .....
+         */
 		const input = [
 			['.', '.', '.', '.', '.'],
 			['.', '.', '#', '#', '.'],
